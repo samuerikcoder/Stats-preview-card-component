@@ -166,11 +166,11 @@
     }
 
     .card__content {
-        width: 50%;
+        width: 52%;
     }
 
     .card__img {
-        width: 50%;
+        width: 48%;
         border-radius: 0 .5rem .5rem 0;
     }
 

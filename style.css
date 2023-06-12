@@ -131,7 +131,7 @@
     font-size: 1rem;
     font-family: var(--ff-base);
     color: var(--clr-neutral-white-stat);
-    letter-spacing: 1px;
+    letter-spacing: 2px;
  }
 
  .attribution { 
@@ -152,8 +152,8 @@
     }
 
     .card__content {
-        padding-right: 10rem;
-        padding-left: 5rem;
+        padding-right: 12rem;
+        padding-left: 6rem;
     }
 
     .card__title {
@@ -162,7 +162,7 @@
     }
 
     p {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
 
     .card__content {
@@ -181,19 +181,19 @@
     .status {
         display: flex;
         justify-content: space-between;
-        margin-top: 5rem;
+        margin-top: 7rem;
     }
 
     .status__results {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     .status__description {
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .card__title {
-        margin-bottom: 4rem;
+        margin-bottom: 2.5rem;
     }
  }

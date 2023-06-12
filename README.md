@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [click here]()
+- Solution URL: [click here](https://www.frontendmentor.io/solutions/css-grid-and-flexbox-pDiaMimc-l)
 - Live Site URL: [click here](https://main--velvety-heliotrope-b7c481.netlify.app/)
 
 ## My process

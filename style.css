@@ -24,13 +24,9 @@
   */
   * {
     margin: 0;
+    padding: 0;
   }
-  /*
-    3. Allow percentage-based heights in the application
-  */
-  html, body {
-    height: 100%;
-  }
+  
   /*
     Typographic tweaks!
     4. Add accessible line-height
@@ -38,6 +34,7 @@
   */
   body {
     line-height: 1.5;
+    min-height: 100vh;
     -webkit-font-smoothing: antialiased;
   }
   /*
@@ -79,7 +76,7 @@
   }
 
   .card {
-    max-width: 1100px;
+    max-width: 500px;
     background-color: var(--clr-primary-desaturated-blue);
     border-radius: .5rem;
   }
@@ -94,6 +91,7 @@
     mix-blend-mode: multiply;
     opacity: .75;
     object-fit: cover;
+    min-width: 100%;
   }
   
   .card__content {
@@ -121,14 +119,14 @@
  }
 
  .status__results {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: var(--fw-bold);
     color: var(--clr-neutral-white);
  }
 
  .status__description {
     display: block;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-family: var(--ff-base);
     color: var(--clr-neutral-white-stat);
     letter-spacing: 2px;
@@ -143,12 +141,13 @@
     color: hsl(228, 45%, 44%); 
  }
 
- @media (min-width: 740px) {
+ @media (min-width: 880px) {
     .card {
         display: flex;
         flex-direction: row-reverse;
         text-align: left;
         line-height: 1.5;
+        max-width: 1100px;
     }
 
     .card__content {
